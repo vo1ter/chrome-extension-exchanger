@@ -1,0 +1,14 @@
+{
+    "popup": {
+        "reqBtnPhrase": "Обміняти!"
+    },
+
+    "settings": {
+        "titlePhrase": "Налаштування обмінника",
+        "firstCurrPhrase": "Перша валюта за замовчуванням",
+        "secondCurrPhrase": "Друга валюта за замовчуванням",
+        "defaultFirstCurrAmountPhrase": "К-сть першої валюти за замовчуванням",
+        "languagePhrase": "Мова",
+        "btnPhrase": "Зберегти налаштування!"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "USD": {
+        "symbol": "$",
+        "abb": "USD"
+    },
+    "EUR": {
+        "symbol": "€",
+        "abb": "EUR"
+    },
+    "GBP": {
+        "symbol": "£",
+        "abb": "GBP"
+    },
+    "UAH": {
+        "symbol": "₴",
+        "abb": "UAH"
+    },
+    "RUB": {
+        "symbol": "₽",
+        "abb": "RUB"
+    },
+    "CNY": {
+        "symbol": "¥",
+        "abb": "CNY"
+    }
+
+}

@@ -1,0 +1,94 @@
+p {
+    margin: 0 10px;
+}
+
+input {
+    width: 100px;
+    padding: 5px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.btn {
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: .3s;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.el>h3 {
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 5px;
+}
+
+.inputs > p {
+    margin: auto 5px;
+}
+
+.grid > .btn:first-child {
+    margin-right: 10px;
+}
+
+.grid > .btn:last-child {
+    margin-left: 10px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0px 2px 5px 0px #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-disabled {
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: .3s;
+    background-color: grey;
+    cursor: not-allowed;
+    text-align: center;
+    color: black;
+}
+
+select {
+    padding: 5px;
+}
+
+#firstCurrAmount {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#firstCurr {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#secondCurr {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#secondCurrAmount {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

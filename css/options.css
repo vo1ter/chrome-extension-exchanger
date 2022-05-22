@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.title {
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+}
+
+/* .grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.el {
+    margin: 20px 0;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.el > * {
+    margin: 5px 0;
+}
+
+p {
+    margin: 0 10px;
+}
+
+input {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: .3s;
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 0px 2px 5px 0px #FFFFFF;
+    cursor: pointer;
+}
+
+select {
+    padding: 5px;
+    border-radius: 10px;
+}

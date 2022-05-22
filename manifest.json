@@ -1,0 +1,17 @@
+{
+    "name": "vo1ternotdeveloper's fast exchanger",
+    "description": "Exchange popular currencies right in your browser without additional tabs!",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "tabs"
+    ]
+}

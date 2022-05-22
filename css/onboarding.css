@@ -1,0 +1,12 @@
+.el {
+    margin: 20px 0;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 25%;
+}
